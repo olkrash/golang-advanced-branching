@@ -68,6 +68,8 @@ func init() {
 		truck{"F-150", "Ford", "Truck"},
 		truck{"RAM1500", "Dodge", "Truck"}}
 
+	vehicleResult = make(map[string]feedbackResult)
+
 }
 
 func main() {
