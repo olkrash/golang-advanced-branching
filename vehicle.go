@@ -144,8 +144,8 @@ func generateRating() {
 					vehResult.feedbackNegative++
 				}
 			}
-			vehResult = vehicleResult[v.Name]
 		}
+		vehResult = vehicleResult[v.Name]
 	}
 
 }
