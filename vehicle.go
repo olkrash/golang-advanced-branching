@@ -118,7 +118,7 @@ func generateRating() {
 	for _, v := range f.Models {
 		var vehResult feedbackResult
 		var vehRating rating
-		vehResult = vehicleResult[v.Name]
+
 		for _, msg := range v.Feedback {
 			if text := strings.Split(msg, " "); len(text) >= 5 {
 				vehRating = 5.0
